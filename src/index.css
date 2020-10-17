@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.main-header {
+  padding: 5px;
+  text-align: center;
+  background: #80A1C1;
+  color: white;
+  font-size: 30px;
+}
+
+.main-header .channel-field{
+  box-sizing: border-box;
+  text-align: center;
+
+  width: 210px;
+  height: 2.3em;
+  transition: background-color .2s ease-in-out, border-color .2s ease-in-out;
+  border: 2px solid #dfe1e6;
+  border-radius: 3px;
+  vertical-align: baseline;
+  font-size: 18px;
+
+}
+
+.center-container {
+  padding-top: 60px;
+  position: absolute;
+  transform: translate(-50%);
+  left: 50%;
+}
+
+.button-matrix {
+}
+
+.instant-button {
+  margin: 5px;
+  width: 70px;
+  height: 70px;
+
+  background-color: #E8E2D9;
+  border: none;
+  outline: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.instant-button-with-link {
+  background-color: #EEE3AB;
+}
+
+.instant-button-active {
+  animation: blinking 0.8s infinite;
+}
+
+@keyframes blinking {
+  50% {
+    background-color: #E1603D;
+  }
+}
